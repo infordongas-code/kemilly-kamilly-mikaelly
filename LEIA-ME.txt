@@ -1,0 +1,18 @@
+GALERIA DO POSE_KKM — PROJETO DE FÃ
+
+Arquivos:
+- index.html: estrutura da página
+- style.css: visual, cores e responsividade
+- script.js: filtros, menu mobile e lightbox
+- img/: coloque aqui suas imagens locais, se quiser substituir as imagens de exemplo.
+
+Como abrir:
+1. Extraia o ZIP.
+2. Abra a pasta no Visual Studio Code.
+3. Abra index.html no navegador (ou use a extensão Live Server).
+
+Personalizar as fotos:
+As fotos atuais são imagens genéricas de demonstração carregadas pela internet. Elas NÃO são identificadas como fotos de Poze do Rodo. Para usar fotos específicas, substitua os endereços src e data-image em index.html por imagens que você tenha direito/permissão para usar. Para imagens locais, coloque-as na pasta img e use, por exemplo, img/foto-1.jpg.
+
+Observação:
+Este é um projeto independente de fãs, não oficial e sem vínculo com o artista. As imagens externas exigem conexão com a internet.

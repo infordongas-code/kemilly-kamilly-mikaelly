@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria de fotos feita por fãs sobre Poze do Rodo. Projeto independente e não oficial.">
+  <title>galeria do pose_KKM | Galeria de fãs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="galeria do pose KKM, início"><span>POSE</span><b>_KKM</b></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="navMenu" class="nav-menu">
+      <a href="#inicio">Início</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">GALERIA INDEPENDENTE DE FÃS</p>
+        <h1>GALERIA DO<br><span>POSE_KKM</span></h1>
+        <p class="hero-copy">Uma seleção visual dedicada ao universo de Poze do Rodo.</p>
+        <a class="gold-button" href="#galeria">Explorar galeria <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-note">FUNK • CULTURA • IMAGEM</div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="galeria">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELEÇÃO VISUAL</p>
+          <h2>GALERIA <span>DE FOTOS</span></h2>
+        </div>
+        <p class="section-intro">Clique em uma imagem para ampliar.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar imagens">
+        <button class="filter-btn active" data-filter="todas">Todas</button>
+        <button class="filter-btn" data-filter="editorial">Retratos</button>
+        <button class="filter-btn" data-filter="palco">Palco</button>
+        <button class="filter-btn" data-filter="estilo">Estilo</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="photo-card tall" data-category="editorial" data-title="Retrato em destaque" data-image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=85">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=85" alt="Retrato masculino em estilo editorial" loading="lazy">
+          <span class="photo-overlay"><small>01 / RETRATO</small><strong>Retrato em destaque</strong><i>↗</i></span>
+        </button>
+        <button class="photo-card" data-category="palco" data-title="Luzes de palco" data-image="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1400&q=85">
+          <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=85" alt="Show com público e luzes no palco" loading="lazy">
+          <span class="photo-overlay"><small>02 / PALCO</small><strong>Luzes de palco</strong><i>↗</i></span>
+        </button>
+        <button class="photo-card" data-category="estilo" data-title="Streetwear" data-image="https://images.unsplash.com/photo-1523398002811-999ca8DEC234?auto=format&fit=crop&w=1400&q=85">
+          <img src="https://images.unsplash.com/photo-1523398002811-999ca8DEC234?auto=format&fit=crop&w=900&q=85" alt="Moda urbana e streetwear" loading="lazy">
+          <span class="photo-overlay"><small>03 / ESTILO</small><strong>Streetwear</strong><i>↗</i></span>
+        </button>
+        <button class="photo-card" data-category="palco" data-title="Energia do show" data-image="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1400&q=85">
+          <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=900&q=85" alt="Artista e iluminação de concerto" loading="lazy">
+          <span class="photo-overlay"><small>04 / PALCO</small><strong>Energia do show</strong><i>↗</i></span>
+        </button>
+        <button class="photo-card tall" data-category="estilo" data-title="Detalhes urbanos" data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1400&q=85">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85" alt="Editorial de moda urbana" loading="lazy">
+          <span class="photo-overlay"><small>05 / ESTILO</small><strong>Detalhes urbanos</strong><i>↗</i></span>
+        </button>
+        <button class="photo-card" data-category="editorial" data-title="Luz e sombra" data-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=85">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85" alt="Retrato masculino com fundo neutro" loading="lazy">
+          <span class="photo-overlay"><small>06 / RETRATO</small><strong>Luz e sombra</strong><i>↗</i></span>
+        </button>
+      </div>
+      <p class="image-disclaimer">As imagens de demonstração acima são referências visuais genéricas, não fotos confirmadas de Poze do Rodo. Substitua pelos arquivos que você tenha autorização para usar.</p>
+    </section>
+
+    <section class="about-section" id="sobre">
+      <div class="about-mark">KKM<span>✦</span></div>
+      <div class="about-copy">
+        <p class="eyebrow">SOBRE O PROJETO</p>
+        <h2>FEITO POR FÃS.<br><span>COM IDENTIDADE.</span></h2>
+        <p>Este é um projeto independente de fã, criado para praticar desenvolvimento web e organizar uma galeria visual relacionada a Poze do Rodo. Não é um site oficial nem possui vínculo com o artista.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio"><span>POSE</span><b>_KKM</b></a>
+    <p>Projeto independente de fãs · <span id="year"></span></p>
+    <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem">×</button>
+    <button class="lightbox-arrow prev" id="prevPhoto" aria-label="Foto anterior">‹</button>
+    <img id="lightboxImage" src="" alt="">
+    <button class="lightbox-arrow next" id="nextPhoto" aria-label="Próxima foto">›</button>
+    <p id="lightboxCaption"></p>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
